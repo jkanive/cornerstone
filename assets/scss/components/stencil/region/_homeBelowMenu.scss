@@ -1,0 +1,7 @@
+.homeBelowMenu {
+  margin-bottom: (spacing("single"));
+
+  @include breakpoint("medium") {
+    margin-bottom: (spacing("single") + spacing("base"));
+  }
+}
